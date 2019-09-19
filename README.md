@@ -25,7 +25,8 @@ http://wiki.seeedstudio.com/Grove_Base_Hat_for_Raspberry_Pi_Zero/
 
 Here is the video instruction [How to Setup Raspberry Pi Zero](https://www.youtube.com/watch?v=3VO4vGlQ1pg&t=178s)
 
-
+## SSH to Raspberry Pi
+TODO
 
 ## Set up remote Desktop
 ```bash
