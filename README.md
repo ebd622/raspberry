@@ -40,8 +40,38 @@ ssh pi@raspberrypi.local
 The default password is *raspberry*
 
 
-## Set up remote Desktop
+## Set up remote Desktop (optional)
 ```bash
 sudo apt-get install tightvncserver
 sudo apt-get install xrdp
 ```
+
+## Install packages
+
+Updated installed packages:
+```bash
+sudo apt-get update
+
+```
+Install [gpiozero](https://gpiozero.readthedocs.io/en/stable/) library (if not installed yet)
+
+```bash
+sudo apt install python3-gpiozero
+```
+
+Install/update all dependencies and latest [grove.py](https://pypi.org/project/grove.py/):
+
+```bash
+curl -sL https://github.com/Seeed-Studio/grove.py/raw/master/install.sh | sudo bash -s -
+```
+It make take some time (~15-20 min) to install/update all packages. At the end, when everything is successfully installed the follwing message should be printed:
+```bash
+Successfully installed grove.py-0.6
+#######################################################
+  Lastest Grove.py from github install complete   !!!!!
+#######################################################
+```
+
+
+
+
