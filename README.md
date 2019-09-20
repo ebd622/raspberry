@@ -15,8 +15,8 @@ http://wiki.seeedstudio.com/Grove_Base_Hat_for_Raspberry_Pi_Zero/
 
 2. Get the image on the SD Card using a formating tool like [Etcher](https://www.balena.io/etcher/)
 
-3. Copy two config files to SD Card, to the root folder:
-* [ssh](config/ssh)
+3. Copy two config files to SD  Card, to the root folder:
+* [ssh](config/ssh) (empty file)
 * [wpa_supplicant.conf](config/wpa_supplicant.conf)
 
 4. Edit *wpa_supplicant.conf* to specify wifi-network and password
@@ -28,7 +28,17 @@ http://wiki.seeedstudio.com/Grove_Base_Hat_for_Raspberry_Pi_Zero/
 Here is the video instruction [How to Setup Raspberry Pi Zero](https://www.youtube.com/watch?v=3VO4vGlQ1pg&t=178s)
 
 ## SSH to Raspberry Pi
-TODO
+First try to ping Raspberry to make sure that it is up and running:
+```bash
+ping raspberrypi.local
+```
+
+Than try ssh:
+```bash
+ssh pi@raspberrypi.local
+```
+The default password is *raspberry*
+
 
 ## Set up remote Desktop
 ```bash
