@@ -9,6 +9,12 @@
 ## Grove Base Hat for Raspberry Pi Zero
 http://wiki.seeedstudio.com/Grove_Base_Hat_for_Raspberry_Pi_Zero/
 
+## Hight level architecture
+
+* [MRAA](https://github.com/intel-iot-devkit/mraa) is a low-level library, developed by Intel, for accessing the I/O functions (GPIO, I2C, SPI, PWM, UART) on a variety of boards such as Intel's Galileo and Edison boards, MinnowBoard Max, Raspberry Pi, and more. It is written in C/C++ and provides Python and Javascript bindings. libmraa supports the UP board since (v0.9.5) and is included with ubilinux.
+
+* [UPM](https://github.com/intel-iot-devkit/upm) is a high-level library that makes use of mraa, and provides packages/modules to manage a variety of sensors and actuators. v0.5.1 is also included with ubilinux.
+
 ## Install Raspbian OS
 1. Download the Raspbian-[Image](https://downloads.raspberrypi.org/raspbian_full_latest) "With Desktop and recommended software based on Debian Buster".
 <br/>(Other images can be found [here](https://www.raspberrypi.org/downloads/raspbian/))
@@ -72,6 +78,15 @@ Successfully installed grove.py-0.6
 #######################################################
 ```
 
+Copy manually MRAA & UPM
+```bash
+cd /usr/local/lib/python3.7/dist-packages
+pi@raspberrypi:/usr/local/lib/python3.7/dist-packages
+
+sudo cp -r /usr/lib/python3.5/dist-packages/upm .
+sudo cp /usr/lib/python3.5/dist-packages/mraa.py .
+sudo cp /usr/lib/python3.5/dist-packages/_mraa.so .
+```
 
 
 
