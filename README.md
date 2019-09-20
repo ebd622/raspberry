@@ -16,12 +16,14 @@ http://wiki.seeedstudio.com/Grove_Base_Hat_for_Raspberry_Pi_Zero/
 2. Get the image on the SD Card using a formating tool like [Etcher](https://www.balena.io/etcher/)
 
 3. Copy two config files to SD Card, to the root folder:
-* File1
-* File2
+* [ssh](config/ssh)
+* [wpa_supplicant.conf](config/wpa_supplicant.conf)
 
-4. Put the SD Card into Raspberry Pi
+4. Edit *wpa_supplicant.conf* to specify wifi-network and password
 
-5. Power on Raspberry Pi
+5. Put the SD Card into Raspberry Pi
+
+6. Power on Raspberry Pi
 
 Here is the video instruction [How to Setup Raspberry Pi Zero](https://www.youtube.com/watch?v=3VO4vGlQ1pg&t=178s)
 
