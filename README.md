@@ -11,9 +11,22 @@ http://wiki.seeedstudio.com/Grove_Base_Hat_for_Raspberry_Pi_Zero/
 
 ## Hight level architecture
 
+The grove.py depends on different hardware interface/libraries:
+
+![Image description](https://raw.githubusercontent.com/Seeed-Studio/grove.py/master/images/grove-py-arch.png)
+
+### HW-libraries
+
 * [MRAA](https://github.com/intel-iot-devkit/mraa) is a low-level library, developed by Intel, for accessing the I/O functions (GPIO, I2C, SPI, PWM, UART) on a variety of boards such as Intel's Galileo and Edison boards, MinnowBoard Max, Raspberry Pi, and more. It is written in C/C++ and provides Python and Javascript bindings. libmraa supports the UP board since (v0.9.5) and is included with ubilinux.
 
 * [UPM](https://github.com/intel-iot-devkit/upm) is a high-level library that makes use of mraa, and provides packages/modules to manage a variety of sensors and actuators. v0.5.1 is also included with ubilinux.
+
+* [SMBUS ](https://github.com/intel-iot-devkit/upm) (System Management Bus) is a subset from the I2C protocol. [smbus2](https://pypi.org/project/smbus2/) is a Python implementation of the python-smbus package.
+
+### HW-interfaces
+* [GPIO](https://www.raspberrypi.org/documentation/usage/gpio/) General purpose input/output
+* [I2C](https://i2c.info) is
+* PWM
 
 ## Install Raspbian OS
 1. Download the Raspbian-[Image](https://downloads.raspberrypi.org/raspbian_full_latest) "With Desktop and recommended software based on Debian Buster".
