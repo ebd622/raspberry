@@ -4,6 +4,13 @@
 - [Raspberry Pi Boards](https://www.raspberrypi.org/products/)
 - [Raspberry Pi Zero](https://www.raspberrypi.org/products/raspberry-pi-zero/)
 
+## What is Grove
+Grove is a modular, standardized connector prototyping system.
+TODO
+http://wiki.seeedstudio.com/Grove/
+
+## Different kinds of HATs
+TODO
 
 
 ## Grove Base Hat for Raspberry Pi Zero
@@ -25,8 +32,8 @@ The grove.py depends on different hardware interface/libraries:
 
 ### HW-interfaces
 * [GPIO](https://www.raspberrypi.org/documentation/usage/gpio/) General purpose input/output
-* [I2C](https://i2c.info) is
-* PWM
+* [I2C](https://i2c.info) is a bus, serial protocol and interface;
+* [PWM](https://en.wikipedia.org/wiki/Pulse-width_modulation) is Pulse Width Modulation Interface
 
 ## Install Raspbian OS
 1. Download the Raspbian-[Image](https://downloads.raspberrypi.org/raspbian_full_latest) "With Desktop and recommended software based on Debian Buster".
