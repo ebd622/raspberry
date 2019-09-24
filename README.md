@@ -16,9 +16,16 @@ TODO
 ## Grove Base Hat for Raspberry Pi Zero
 http://wiki.seeedstudio.com/Grove_Base_Hat_for_Raspberry_Pi_Zero/
 
+## Grove.py library
+[Grove.py](https://pypi.org/project/grove.py) is python library for [Seeedstudio](http://wiki.seeedstudio.com) Grove devices.
+
+* The grove.py project on GitHub: https://github.com/seeed-studio/grove.py
+* [Command Line Interface](https://github.com/Seeed-Studio/grove.py/tree/master/doc) with a list of grove-devices
+* API Documentation: https://seeed-studio.github.io/grove.py/
+
 ## Hight level architecture
 
-The grove.py depends on different hardware interface/libraries:
+Grove.py depends on different hardware interface/libraries:
 
 ![Image description](https://raw.githubusercontent.com/Seeed-Studio/grove.py/master/images/grove-py-arch.png)
 
