@@ -8,7 +8,7 @@
 Pinout Orientation RaspberyPi Zero W
 ![Pinout Orientation RaspberyPi Zero W](images/raspberry_pinout_1.jpg)
 
-Connect devices with [wires and boards](images/raspberry_board.jpg)
+Connect devices with [wires and boards](https://therestartproject.org/wp-content/uploads/2018/08/Raspberry-Pi-thermostat-900x600.jpg)
 
 ## What is Grove
 Grove is a modular, standardized connector prototyping system.
