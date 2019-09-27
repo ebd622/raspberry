@@ -6,7 +6,7 @@
 
 ## Interfacing hardware with the Raspberry
 Pinout Orientation RaspberyPi Zero W
-![Pinout Orientation RaspberyPi Zero W](https://raw.githubusercontent.com/Seeed-Studio/grove.py/master/images/grove-py-arch.png)
+![Pinout Orientation RaspberyPi Zero W](images/raspberry_pinout_1.jpg)
 
 ## What is Grove
 Grove is a modular, standardized connector prototyping system.
