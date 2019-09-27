@@ -25,8 +25,10 @@ Many different Grove-modules are available:
 * [Others](http://wiki.seeedstudio.com/Others/)
 
 
-## Different kinds of HATs
-TODO
+## Raspberry Pi HAT
+HAT stands for “Hardware attached on top”. It is a new hardware specification for add-one modules for the Raspberry Pi.
+
+Auto-configuration is a most interesting feature of HATs. With a controller on the board, the add-on board identifies itself. It tells the Raspberry Pi, which IO pins it is using, how they need to be configured and what drivers have to be loaded. 
 
 
 ## Grove Base Hat for Raspberry Pi Zero
