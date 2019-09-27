@@ -12,8 +12,16 @@ Connect devices with [wires and boards](https://therestartproject.org/wp-content
 
 ## What is Grove
 Grove is a modular, standardized connector prototyping system.
-TODO
-http://wiki.seeedstudio.com/Grove/
+Grove connector:
+<img src="https://www.omzlo.com/uploads/std_grove-vs-jst-face.jpg" width="50%">
+
+Many different Grove-modules are available:
+* [Sensors](http://wiki.seeedstudio.com/Sensor/)
+* [Actuators](http://wiki.seeedstudio.com/Actuator/)
+* [Displays](http://wiki.seeedstudio.com/Display/)
+* [Communication](http://wiki.seeedstudio.com/Communication/)
+* [Others](http://wiki.seeedstudio.com/Others/)
+
 
 ## Different kinds of HATs
 TODO
