@@ -49,7 +49,8 @@ In our examples we will use a [Hat for Raspberry Pi Zero:](http://wiki.seeedstud
 
 Grove.py depends on different hardware interface/libraries:
 
-![Image description](https://raw.githubusercontent.com/Seeed-Studio/grove.py/master/images/grove-py-arch.png)
+<img src="https://raw.githubusercontent.com/Seeed-Studio/grove.py/master/images/grove-py-arch.png" width="50%">
+
 
 ### HW-libraries
 
