@@ -4,6 +4,10 @@
 - [Raspberry Pi Boards](https://www.raspberrypi.org/products/)
 - [Raspberry Pi Zero](https://www.raspberrypi.org/products/raspberry-pi-zero/)
 
+## Interfacing hardware with the Raspberry
+Pinout Orientation RaspberyPi Zero W
+![Pinout Orientation RaspberyPi Zero W](https://raw.githubusercontent.com/Seeed-Studio/grove.py/master/images/grove-py-arch.png)
+
 ## What is Grove
 Grove is a modular, standardized connector prototyping system.
 TODO
