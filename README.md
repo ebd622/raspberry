@@ -138,5 +138,7 @@ sudo cp /usr/lib/python3.5/dist-packages/mraa.py .
 sudo cp /usr/lib/python3.5/dist-packages/_mraa.so .
 ```
 
-
-
+## Useful resources
+* Raspberry Pi Foundation: https://www.raspberrypi.org
+* Seeed IoT hardware: http://wiki.seeedstudio.com/
+* Dexter Industries (GrovePi): https://www.dexterindustries.com/grovepi/
