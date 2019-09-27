@@ -13,7 +13,8 @@ Connect devices with [wires and boards](https://therestartproject.org/wp-content
 ## What is Grove
 Grove is a modular, standardized connector prototyping system.
 
-Grove connectors look like these: 
+Grove connectors look like these:
+
 <img src="https://www.omzlo.com/uploads/std_grove-vs-jst-face.jpg" width="50%">
 
 Many different Grove-modules are available:
