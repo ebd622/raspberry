@@ -6,7 +6,8 @@
 
 ## Interfacing hardware with the Raspberry
 Pinout Orientation RaspberyPi Zero W
-![Pinout Orientation RaspberyPi Zero W](images/raspberry_pinout_1.jpg)
+
+<img src="images/raspberry_pinout_1.jpg" width="80%">
 
 Connect devices with [wires and boards](https://therestartproject.org/wp-content/uploads/2018/08/Raspberry-Pi-thermostat-900x600.jpg)
 
@@ -32,8 +33,10 @@ Auto-configuration is a most interesting feature of HATs. With a controller on t
 
 
 ## Grove Base Hat for Raspberry Pi Zero
-In our examples we will use a Hat for Raspberry Pi Zero: 
-http://wiki.seeedstudio.com/Grove_Base_Hat_for_Raspberry_Pi_Zero/
+In our examples we will use a [Hat for Raspberry Pi Zero:](http://wiki.seeedstudio.com/Grove_Base_Hat_for_Raspberry_Pi_Zero/) 
+
+<img src="https://raw.githubusercontent.com/SeeedDocument/Grove_Base_Hat_for_Raspberry_Pi_Zero/master/img/main.jpg" width="50%">
+
 
 ## Grove.py library
 [Grove.py](https://pypi.org/project/grove.py) is python library for [Seeedstudio](http://wiki.seeedstudio.com) Grove devices.
