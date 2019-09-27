@@ -7,7 +7,7 @@
 ## Interfacing hardware with the Raspberry
 Pinout Orientation RaspberyPi Zero W
 
-<img src="images/raspberry_pinout_1.jpg" width="80%">
+<img src="images/raspberry_pinout_1.jpg" width="60%">
 
 Connect devices with [wires and boards](https://therestartproject.org/wp-content/uploads/2018/08/Raspberry-Pi-thermostat-900x600.jpg)
 
