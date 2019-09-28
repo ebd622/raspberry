@@ -138,6 +138,30 @@ sudo cp /usr/lib/python3.5/dist-packages/mraa.py .
 sudo cp /usr/lib/python3.5/dist-packages/_mraa.so .
 ```
 
+## Simple Led-project
+As an example let's create a simple project with Led.
+* Create a python script ```led.py```:
+```
+import time
+from grove.grove_led import GroveLed
+
+# connect to pin 5(slot D5)
+PIN = 5
+led = GroveLed(PIN)
+while True:
+    led.on()
+    time.sleep(1)
+    led.off()
+    time.sleep(1)
+```
+* Connect Led to the slot D5;
+* Run the following command:
+```bash
+python3.7 led.py
+```
+
+
+
 ## Useful resources
 * Raspberry Pi Foundation: https://www.raspberrypi.org
 * Seeed IoT hardware: http://wiki.seeedstudio.com/
