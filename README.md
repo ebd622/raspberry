@@ -139,7 +139,7 @@ sudo cp /usr/lib/python3.5/dist-packages/_mraa.so .
 ```
 
 ## Simple Led-project
-As an example let's create a simple project with Led.
+As an example let's create a simple project with [Led](https://www.seeedstudio.com/Grove-Multi-Color-Flash-LED-5m-p-1141.html).
 * Create a python script ```led.py```:
 ```
 import time
