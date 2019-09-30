@@ -2,6 +2,7 @@
 ## Short Introduction
 - [What is a Raspberry Pi?](https://www.raspberrypi.org/help/what-%20is-a-raspberry-pi/)
 - [Raspberry Pi Boards](https://www.raspberrypi.org/products/)
+- [Raspberry Pi Boards](https://www.raspberrypi.org/products/)
 - [Raspberry Pi Zero](https://www.raspberrypi.org/products/raspberry-pi-zero/)
 
 ## Interfacing hardware with the Raspberry
