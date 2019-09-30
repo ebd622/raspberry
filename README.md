@@ -138,7 +138,37 @@ sudo cp /usr/lib/python3.5/dist-packages/mraa.py .
 sudo cp /usr/lib/python3.5/dist-packages/_mraa.so .
 ```
 
+## Simple (hello world!) Led-project 
+As an example let's create a simple project with [Led](https://www.seeedstudio.com/Grove-Multi-Color-Flash-LED-5m-p-1141.html).
+* Create a python script ```led.py```:
+```
+import time
+from grove.grove_led import GroveLed
+
+# connect to pin 5(slot D5)
+PIN = 5
+led = GroveLed(PIN)
+while True:
+    led.on()
+    time.sleep(1)
+    led.off()
+    time.sleep(1)
+```
+* Connect Led to the slot D5;
+* Run the following command:
+```bash
+python3.7 led.py
+```
+
+## Assignements
+* Install Raspbian OS;
+* Createa and run a python-script for simple hello-world project (with [Led](https://www.seeedstudio.com/Grove-Multi-Color-Flash-LED-5m-p-1141.html));
+* A project with a [button](http://wiki.seeedstudio.com/Grove-Button/) and [led](https://www.seeedstudio.com/Grove-Multi-Color-Flash-LED-5m-p-1141.html): when button is pressed than led is On; when button is released than led is Off;
+* A project with a [motion-sensor](https://www.seeedstudio.com/Grove-mini-PIR-motion-sensor-p-2930.html) and [led](https://www.seeedstudio.com/Grove-Multi-Color-Flash-LED-5m-p-1141.html): when motion is detected than led is On/Off;
+* A project with a [temperature-sensor](https://www.seeedstudio.com/Grove-Temperature-Sensor.html) and [led](https://www.seeedstudio.com/Grove-Multi-Color-Flash-LED-5m-p-1141.html): when temperature in a room is more than xx°C than led is On;
+
 ## Useful resources
 * Raspberry Pi Foundation: https://www.raspberrypi.org
 * Seeed IoT hardware: http://wiki.seeedstudio.com/
+* Grove.py CLI with a list of supported divices: https://github.com/Seeed-Studio/grove.py/tree/master/doc
 * Dexter Industries (GrovePi): https://www.dexterindustries.com/grovepi/
