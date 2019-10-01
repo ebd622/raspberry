@@ -162,10 +162,9 @@ python3.7 led.py
 
 ## Assignements
 * Install Raspbian OS;
-* Createa and run a python-script for simple hello-world project (with [Led](https://www.seeedstudio.com/Grove-Multi-Color-Flash-LED-5m-p-1141.html));
-* A project with a [button](http://wiki.seeedstudio.com/Grove-Button/) and [led](https://www.seeedstudio.com/Grove-Multi-Color-Flash-LED-5m-p-1141.html): when button is pressed than led is On; when button is released than led is Off;
-* A project with a [motion-sensor](https://www.seeedstudio.com/Grove-mini-PIR-motion-sensor-p-2930.html) and [led](https://www.seeedstudio.com/Grove-Multi-Color-Flash-LED-5m-p-1141.html): when motion is detected than led is On/Off;
-* A project with a [temperature-sensor](https://www.seeedstudio.com/Grove-Temperature-Sensor.html) and [led](https://www.seeedstudio.com/Grove-Multi-Color-Flash-LED-5m-p-1141.html): when temperature in a room is more than xx°C than led is On;
+* Hello World app - one [led](https://www.seeedstudio.com/Grove-Multi-Color-Flash-LED-5m-p-1141.html) on / off / disco
+* [motion](https://www.seeedstudio.com/Grove-mini-PIR-motion-sensor-p-2930.html) or light sensor -> led on / off;
+* [motion](https://www.seeedstudio.com/Grove-mini-PIR-motion-sensor-p-2930.html) sensor and display -> show motion detected / lights off
 
 ## Useful resources
 * Raspberry Pi Foundation: https://www.raspberrypi.org
