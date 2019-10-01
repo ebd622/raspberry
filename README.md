@@ -128,7 +128,7 @@ Successfully installed grove.py-0.6
 #######################################################
 ```
 
-You may have error(s) during the installation process when you use not a full rasbian image. It happens because some packajes are not preinstalled on the light version. Than you need to install missed packages manually. For example, to install pip run the following command:
+You may have error(s) during the installation process when you use not a full rasbian image. It happens because some packages are not preinstalled on the light version. Than you need to install missed packages manually. For example, to install pip run the following command:
 
 ```bash
 sudo apt-get install python3-pip
