@@ -164,7 +164,7 @@ python3.7 led.py
 * Install Raspbian OS;
 * Hello World app - one [led](https://www.seeedstudio.com/Grove-Multi-Color-Flash-LED-5m-p-1141.html) on / off / disco
 * [Motion](https://www.seeedstudio.com/Grove-mini-PIR-motion-sensor-p-2930.html) or [light](https://www.seeedstudio.com/Grove-Light-Sensor-v1-2.html) sensor -> led on / off;
-* [Motion](https://www.seeedstudio.com/Grove-mini-PIR-motion-sensor-p-2930.html) sensor and display -> show motion detected / lights off
+* [Motion](https://www.seeedstudio.com/Grove-mini-PIR-motion-sensor-p-2930.html) sensor and [display](https://www.seeedstudio.com/Grove-OLED-Display-1-12-V2.html) -> show motion detected / lights off
 
 ## Useful resources
 * Raspberry Pi Foundation: https://www.raspberrypi.org
