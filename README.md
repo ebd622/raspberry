@@ -180,7 +180,7 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo pip install pushbullet.py
 ```
-3. Check out the example
+3. Check out the [example](examples/push_examples.py)
 
 
 ## Assignements
