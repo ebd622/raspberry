@@ -170,6 +170,18 @@ while True:
 ```bash
 python3.7 led.py
 ```
+## Pushbullet
+
+1. [Setup](https://iotdesignpro.com/projects/home-security-system-using-raspberry-pi-and-pir-sensor-with-push-notification-alert) Pushbullet account
+
+2. Installing [Pushbullet Libraries](https://pypi.org/project/pushbullet.py/0.9.1/) on Raspberry Pi
+```bash
+sudo apt-get update
+sudo apt-get upgrade
+sudo pip install pushbullet.py
+```
+3. Check out the example
+
 
 ## Assignements
 ### Workshop 1
@@ -186,3 +198,5 @@ python3.7 led.py
 * Seeed IoT hardware: http://wiki.seeedstudio.com/
 * Grove.py CLI with a list of supported divices: https://github.com/Seeed-Studio/grove.py/tree/master/doc
 * Dexter Industries (GrovePi): https://www.dexterindustries.com/grovepi/
+* Pushbullet.py 0.9.1: https://pypi.org/project/pushbullet.py/0.9.1/
+* Pushbullet: https://www.pushbullet.com/
