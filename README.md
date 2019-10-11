@@ -191,7 +191,7 @@ sudo pip install pushbullet.py
 * [Motion](https://www.seeedstudio.com/Grove-mini-PIR-motion-sensor-p-2930.html) sensor and [display](https://www.seeedstudio.com/Grove-OLED-Display-1-12-V2.html) -> show motion detected / lights off
 
 ### Workshop 2
-Motion sensor and RGB LED are connected to Raspberry, when any motion is detected than:
+* Motion sensor and RGB LED are connected to Raspberry, when any motion is detected than:
   * RGB LED is on;
   * A notification is pushed to mobile;
   * SMS-message is sent to mobile (the same or another);
