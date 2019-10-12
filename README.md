@@ -180,7 +180,7 @@ Pushbullet also makes it easy to send pictures, files, links, and more to your d
 ### Setup account and install libraries
 1. [Setup](https://iotdesignpro.com/projects/home-security-system-using-raspberry-pi-and-pir-sensor-with-push-notification-alert) Pushbullet account
 
-2. Installing [Pushbullet Libraries](https://pypi.org/project/pushbullet.py/0.9.1/) on Raspberry Pi (upgrade may take some time: ~15..20  min)
+2. Installing [Pushbullet Libraries](https://pypi.org/project/pushbullet.py/0.9.1/) on Raspberry Pi (```upgrade``` may take some time: ~15..20  min)
 ```bash
 sudo apt-get update
 sudo apt-get upgrade
