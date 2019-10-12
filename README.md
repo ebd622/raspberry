@@ -171,16 +171,36 @@ while True:
 python3.7 led.py
 ```
 ## Pushbullet
+Pushbullet is a group of applications and an API for sharing files and notifications between devices.
 
+Pushbullet automatically shows you all of your phone's notifications right on your computer, this means you can see who's calling or read and reply to text messages even if your phone is on silent or in another room.
+
+Pushbullet also makes it easy to send pictures, files, links, and more to your devices and even to friends.
+
+### Setup account and install libraries
 1. [Setup](https://iotdesignpro.com/projects/home-security-system-using-raspberry-pi-and-pir-sensor-with-push-notification-alert) Pushbullet account
 
-2. Installing [Pushbullet Libraries](https://pypi.org/project/pushbullet.py/0.9.1/) on Raspberry Pi
+2. Installing [Pushbullet Libraries](https://pypi.org/project/pushbullet.py/0.9.1/) on Raspberry Pi (```upgrade``` may take some time: ~15..20  min)
 ```bash
 sudo apt-get update
 sudo apt-get upgrade
 sudo pip install pushbullet.py
 ```
-3. Check out the [example](examples/push_examples.py)
+
+3. Copy manually ```websocket``` ans ```pushbullet``` packages:
+```bash
+cd /usr/local/lib/python3.7/dist-packages
+
+sudo cp -r /usr/local/lib/python2.7/dist-packages/websocket .
+sudo cp -r /usr/local/lib/python2.7/dist-packages/websocket_client-0.56.0.dist-info .
+sudo cp -r /usr/local/lib/python2.7/dist-packages/pushbullet .
+sudo cp -r /usr/local/lib/python2.7/dist-packages/pushbullet.py-0.11.0.dist-info .
+```
+
+4. Check out the [example](examples/push_examples.py). Add your own access token and run the command:
+```bash
+python3.7 push_examples.py
+```
 
 
 ## Assignements
