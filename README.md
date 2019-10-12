@@ -187,10 +187,10 @@ sudo apt-get upgrade
 sudo pip install pushbullet.py
 ```
 
-3. Copy manually websocket ans pushbullet packages:
+3. Copy manually ```websocket``` ans ```pushbullet``` packages:
 ```bash
 cd /usr/local/lib/python3.7/dist-packages
-pi@raspberrypi:/usr/local/lib/python3.7/dist-packages
+
 sudo cp -r /usr/local/lib/python2.7/dist-packages/websocket .
 sudo cp -r /usr/local/lib/python2.7/dist-packages/websocket_client-0.56.0.dist-info .
 sudo cp -r /usr/local/lib/python2.7/dist-packages/pushbullet .
