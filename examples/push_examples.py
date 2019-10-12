@@ -10,7 +10,7 @@ print(pb.devices)
 dev = pb.get_device("Galaxy S7 Edge")
 
 #1. Push Notification
-push = dev.push_note("Alert!", "This PUSH-notification sent fro Raspberry!")
+push = dev.push_note("Alert!", "This PUSH-notification sent from Raspberry!")
 
 # push is a dictionary containing the data returned by the Pushbullet API.
 print('A dictionalry after 1:')
