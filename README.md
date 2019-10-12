@@ -197,11 +197,12 @@ sudo cp -r /usr/local/lib/python2.7/dist-packages/pushbullet .
 sudo cp -r /usr/local/lib/python2.7/dist-packages/pushbullet.py-0.11.0.dist-info .
 ```
 
-4. Check out the [example](examples/push_examples.py). Add your own access token and run the command:
+4. Check out the [example](examples/push_examples.py). Add your own access token and a phone number where you want to send SMS-message. Than run the command:
+
 ```bash
 python3.7 push_examples.py
 ```
-
+You should receive notifications on your mobile
 
 ## Assignements
 ### Workshop 1
