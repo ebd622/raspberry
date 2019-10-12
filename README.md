@@ -186,7 +186,18 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo pip install pushbullet.py
 ```
-3. Check out the [example](examples/push_examples.py)
+
+3. Copy manually some packages:
+```bash
+cd /usr/local/lib/python3.7/dist-packages
+pi@raspberrypi:/usr/local/lib/python3.7/dist-packages
+
+sudo cp -r /usr/lib/python3.5/dist-packages/upm .
+sudo cp /usr/lib/python3.5/dist-packages/mraa.py .
+sudo cp /usr/lib/python3.5/dist-packages/_mraa.so .
+```
+
+4. Check out the [example](examples/push_examples.py)
 
 
 ## Assignements
