@@ -212,8 +212,8 @@ You should receive notifications on your mobile
 * [Motion](https://www.seeedstudio.com/Grove-mini-PIR-motion-sensor-p-2930.html) sensor and [display](https://www.seeedstudio.com/Grove-OLED-Display-1-12-V2.html) -> show motion detected / lights off
 
 ### Workshop 2
-* Motion sensor and RGB LED are connected to Raspberry, when any motion is detected than:
-  * RGB LED is on;
+* Motion sensor and LED are connected to Raspberry, when any motion is detected than:
+  * LED is on;
   * A notification is pushed to mobile;
   * SMS-message is sent to another mobile (or the same);
   * A [photo](examples/thief.jpg) is pushed to mobile (let's assume that a photo has been taken by a camera connected to Raspbery when a motion has been detected)
