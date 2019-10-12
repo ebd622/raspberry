@@ -187,17 +187,20 @@ sudo apt-get upgrade
 sudo pip install pushbullet.py
 ```
 
-3. Copy manually some packages:
+3. Copy manually websocket ans pushbullet packages:
 ```bash
 cd /usr/local/lib/python3.7/dist-packages
 pi@raspberrypi:/usr/local/lib/python3.7/dist-packages
-
-sudo cp -r /usr/lib/python3.5/dist-packages/upm .
-sudo cp /usr/lib/python3.5/dist-packages/mraa.py .
-sudo cp /usr/lib/python3.5/dist-packages/_mraa.so .
+sudo cp -r /usr/local/lib/python2.7/dist-packages/websocket .
+sudo cp -r /usr/local/lib/python2.7/dist-packages/websocket_client-0.56.0.dist-info .
+sudo cp -r /usr/local/lib/python2.7/dist-packages/pushbullet .
+sudo cp -r /usr/local/lib/python2.7/dist-packages/pushbullet.py-0.11.0.dist-info .
 ```
 
-4. Check out the [example](examples/push_examples.py)
+4. Check out the [example](examples/push_examples.py). Add your own access token and run the command:
+```bash
+python3.7 push_examples.py
+```
 
 
 ## Assignements
