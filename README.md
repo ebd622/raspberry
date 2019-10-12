@@ -171,6 +171,11 @@ while True:
 python3.7 led.py
 ```
 ## Pushbullet
+Pushbullet is a group of applications and an API for sharing files and notifications between devices.
+
+Pushbullet automatically shows you all of your phone's notifications right on your computer, this means you can see who's calling or read and reply to text messages even if your phone is on silent or in another room.
+
+Pushbullet also makes it easy to send pictures, files, links, and more to your devices and even to friends.
 
 1. [Setup](https://iotdesignpro.com/projects/home-security-system-using-raspberry-pi-and-pir-sensor-with-push-notification-alert) Pushbullet account
 
