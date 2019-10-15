@@ -186,8 +186,12 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo pip install pushbullet.py
 ```
+You can also use pip3 to install pushbullet.py, in this case you can skip the step 3:
+```bash
+sudo pip3 install pushbullet.py
+```
 
-3. Copy manually ```websocket``` ans ```pushbullet``` packages:
+3. Copy manually ```websocket``` ans ```pushbullet``` packages (skip if you used pip3):
 ```bash
 cd /usr/local/lib/python3.7/dist-packages
 
