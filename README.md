@@ -186,8 +186,12 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo pip install pushbullet.py
 ```
+You can also use pip3 to install pushbullet.py, in this case you can skip the step 3:
+```bash
+sudo pip3 install pushbullet.py
+```
 
-3. Copy manually ```websocket``` ans ```pushbullet``` packages:
+3. Copy manually ```websocket``` ans ```pushbullet``` packages (skip if you used pip3):
 ```bash
 cd /usr/local/lib/python3.7/dist-packages
 
@@ -197,11 +201,12 @@ sudo cp -r /usr/local/lib/python2.7/dist-packages/pushbullet .
 sudo cp -r /usr/local/lib/python2.7/dist-packages/pushbullet.py-0.11.0.dist-info .
 ```
 
-4. Check out the [example](examples/push_examples.py). Add your own access token and run the command:
+4. Check out the [example](examples/push_examples.py). Add your own access token and a phone number where you want to send SMS-message. Than run the command:
+
 ```bash
 python3.7 push_examples.py
 ```
-
+You should receive notifications on your mobile
 
 ## Assignements
 ### Workshop 1
@@ -211,8 +216,8 @@ python3.7 push_examples.py
 * [Motion](https://www.seeedstudio.com/Grove-mini-PIR-motion-sensor-p-2930.html) sensor and [display](https://www.seeedstudio.com/Grove-OLED-Display-1-12-V2.html) -> show motion detected / lights off
 
 ### Workshop 2
-* Motion sensor and RGB LED are connected to Raspberry, when any motion is detected than:
-  * RGB LED is on;
+* Motion sensor and LED are connected to Raspberry, when any motion is detected than:
+  * LED is on;
   * A notification is pushed to mobile;
   * SMS-message is sent to another mobile (or the same);
   * A [photo](examples/thief.jpg) is pushed to mobile (let's assume that a photo has been taken by a camera connected to Raspbery when a motion has been detected)
